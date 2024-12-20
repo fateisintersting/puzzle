@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    overscroll-behavior: none;
+    background-color: rgb(70, 68, 68);
+
+}
+#mycanvas{
+    position: absolute;
+}
+
+#menuItems{
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-size: 7vmin;
+    
+}
+select{
+    font-size: 5vmin;
+    cursor: pointer;
+    border: none;
+    border-radius: 1vmin;
+    outline: none;
+
+}
+button{
+    margin: 0.5vmin;
+    color: white;
+    font-size: 7vmin;
+    background-color: black;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+#time{
+    color: white;
+    font-size: 5vmin;
+    top: 0;
+    left: 40%;
+    transform: translate(50%);
+}
+#btnmenu{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    top: 80%;
+
+    border-radius: 30%;
+}
+
+#youwin{
+    position: absolute;
+    color: white;
+    border: 2px solid blue;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-size: 4vmin;
+    display: none;
+    
+}

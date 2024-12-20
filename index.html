@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <script  src="main.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body onload="main()">
+    <canvas id="mycanvas"></canvas>
+    <div id="menuItems">
+    <div id="menu">
+        <div id="controls">
+            Difficulty
+        <select id="difficulty" onchange="changeDifficulty()">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+            <option value="insan">Insane</option>
+            <option value="god">God</option>
+        </select>
+        <br>
+        <button onclick="restart()">Start</button>
+    </div>
+</div>
+    
+</div>
+<div id="time"></div>
+<button id="btnmenu" onclick="menu()">Menu</button>
+
+<div id="youwin">
+    <h1>YOU WIN</h1>
+    <h2>&#127881; &#127881; &#127881; &#127881;</h2>
+    <br>
+    <span id="timeTaken"></span><br>
+    <button onclick="menu()">Restart</button>
+</div>
+    
+</body>
+</html>
